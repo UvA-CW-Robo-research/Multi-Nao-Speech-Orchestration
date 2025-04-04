@@ -28,7 +28,7 @@ Further more, the raspberry pi and the Nao's can be connected to the router, mak
 
 To do: 
 
-- [x] Install raspbian [2020-02-13-raspbian-buster.zip](https://downloads.raspberrypi.org/raspbian/images/raspbian-2020-02-14/) on raspberry pi 3 B+
+- [x] Install raspberry OS [2020-08-20-rspios-buster-arm64-lite.zip](https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2020-08-24/) on raspberry pi 3 B+ (comes with python 2.7.16)
 - [x] Ensure SSH access to raspberry pi: `ssh nao@naoserver.local`
 - [x] Install Naoqi SDK on raspberry pi: Giving error on pythen bit version
 - [ ] Uninstall python 2.7 32 bit version
