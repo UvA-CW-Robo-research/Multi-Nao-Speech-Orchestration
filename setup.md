@@ -52,7 +52,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [x] Run python 2.7 in naoqi conda environment `python`
 - [x] Import NAOqi in python `import naoqi`
 - [x] Check if it works `noaqi`
-- [ ] Setup network with Nao's and mac mini
+- [ ] Setup router tp-link u:admin
 - [ ] Assign fixed IP's to Nao's
 - [ ] Develop and run script from raspberry pi to control Naoqi API
 
