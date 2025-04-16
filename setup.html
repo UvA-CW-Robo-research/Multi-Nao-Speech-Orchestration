@@ -356,7 +356,8 @@ display: none;
 
 <p>Pre-requisites</p>
 <ol style="list-style-type: decimal">
-<li>Nao version 2.8.6.23 uses older python version.</li>
+<li>Nao version 2.8.6.23 uses older python version. Though it does need
+64 bit.</li>
 <li>Go to <a href="http://doc.aldebaran.com/2-5/dev/python/index.html">Softbank</a>
 download the python sdk for your operating system. This website is not
 up-to-date. The instructions on getting the Python SDK are not correct.
@@ -366,14 +367,15 @@ Python 2.7 SDK from downloads &gt; SDK.</li>
 <li>Python 2.7 is needed.</li>
 <li>Installation guide is available at <a href="http://doc.aldebaran.com/2-5/dev/python/install_guide.html">Softbank</a></li>
 </ol>
-<div id="action-plan" class="section level2">
-<h2>Action plan</h2>
+<div id="action-plan-failed" class="section level2">
+<h2>Action plan FAILED</h2>
 <p>Setup raspberry pi with python 2.7 for running the Naoqi SDK. Use
 older version of rasbian to ensure Python 2.7 is available as default.
 Using this approach ensures that the Naoqi SDK can always be run on the
 raspberry pi, experimenters can use their own computer to connect to the
 raspberry pi and control the Nao’s, without the need to install older
 versions of python and the Naoqi SDK locally.</p>
+<p>Issue: This version of python runs at 32 bit</p>
 <p>Further more, the raspberry pi and the Nao’s can be connected to the
 router, making the setup portable and easy to use in the lab setting.
 The rasbian image can also be cloned and backed-up.</p>
@@ -389,16 +391,61 @@ to control Nao’s.</li>
 </ol>
 <p>To do:</p>
 <ul class="task-list">
-<li><label><input type="checkbox" checked></input>Install raspbian <a href="https://downloads.raspberrypi.org/raspbian/images/raspbian-2020-02-14/">2020-02-13-raspbian-buster.zip</a>
-on raspberry pi 3 B+</label></li>
+<li><label><input type="checkbox" checked></input>Install raspberry OS <a href="https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2020-08-24/">2020-08-20-rspios-buster-arm64-lite.zip</a>
+on raspberry pi 3 B+ (comes with python 2.7.16)</label></li>
 <li><label><input type="checkbox" checked></input>Ensure SSH access to
 raspberry pi: <code>ssh nao@naoserver.local</code></label></li>
-<li><label><input type="checkbox"></input>Install Naoqi SDK on raspberry
-pi</label></li>
+<li><label><input type="checkbox" checked></input>Install Naoqi SDK on
+raspberry pi: Giving error on pythen bit version</label></li>
 <li><label><input type="checkbox"></input>Develop and run script from
 raspberry pi to control Naoqi API</label></li>
 <li><label><input type="checkbox"></input>Setup network with Nao’s and
 raspberry pi</label></li>
+</ul>
+</div>
+<div id="new-action-plan" class="section level2">
+<h2>New action plan</h2>
+<p>The Nao Python SDK only works on x86 64Bit architecture and not on
+ARM 64Bit. This means that the software does not run on raspberry
+pi.</p>
+<p>The new plan is to use an old x86 mac mini, install ubuntu linux on
+it and run the software from there. As the latest Ubuntu distro comes
+with Pyhton 3.x pre installed, we plan to install anaconda to also make
+a 2.7 python environment available.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked></input>Install <a href="https://ubuntu.com/blog/ubuntu-desktop-24-04-noble-numbat-deep-dive">Ubuntu
+24.04.2 LTS</a> on mac mini</label></li>
+<li><label><input type="checkbox" checked></input><a href="https://www.cyberciti.biz/faq/how-to-install-ssh-on-ubuntu-linux-using-apt-get/">Install
+SSH</a></label></li>
+<li><label><input type="checkbox" checked></input><a href="https://help.ubuntu.com/stable/ubuntu-help/sharing-desktop.html.ro">Enable
+remote desktop</a></label></li>
+<li><label><input type="checkbox" checked></input><a href="https://linuxconfig.org/installing-anaconda-on-ubuntu-24-04">Install
+anaconda</a></label></li>
+<li><label><input type="checkbox" checked></input>Add python 2.7
+environment to anaconda
+<code>conda create --name naoqi python=2.7</code></label></li>
+<li><label><input type="checkbox" checked></input>Enable naoqi environment
+<code>conda activate naoqi</code></label></li>
+<li><label><input type="checkbox" checked></input>Install NAOqi Python SDK,
+download <a href="https://aldebaran.com/en/support/kb/nao6/downloads/nao6-software-downloads/">2.8.6
+- Python 2.7 SDK</a>.</label></li>
+<li><label><input type="checkbox" checked></input>Exctract tar.gz to
+directory <code>cd home/nao/</code> extract file there
+<code>tar -xvzf pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327.tar.gz</code></label></li>
+<li><label><input type="checkbox" checked></input>Add SDK to python path
+<code>export PYTHONPATH=${PYTHONPATH}:~/nao/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages</code></label></li>
+<li><label><input type="checkbox" checked></input>Run python 2.7 in naoqi
+conda environment <code>python</code></label></li>
+<li><label><input type="checkbox" checked></input>Import NAOqi in python
+<code>import naoqi</code></label></li>
+<li><label><input type="checkbox" checked></input>Check if it works
+<code>noaqi</code></label></li>
+<li><label><input type="checkbox"></input>Setup network with Nao’s and mac
+mini</label></li>
+<li><label><input type="checkbox"></input>Assign fixed IP’s to
+Nao’s</label></li>
+<li><label><input type="checkbox"></input>Develop and run script from
+raspberry pi to control Naoqi API</label></li>
 </ul>
 </div>
 

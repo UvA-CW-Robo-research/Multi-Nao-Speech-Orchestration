@@ -11,7 +11,7 @@ Pre-requisites
 3. Python 2.7 is needed.
 4. Installation guide is available at [Softbank](http://doc.aldebaran.com/2-5/dev/python/install_guide.html)
 
-## Action plan
+## Action plan FAILED
 
 Setup raspberry pi with python 2.7 for running the Naoqi SDK. Use older version of rasbian to ensure Python 2.7 is available as default. Using this approach ensures that the Naoqi SDK can always be run on the raspberry pi, experimenters can use their own computer to connect to the raspberry pi and control the Nao's, without the need to install older versions of python and the Naoqi SDK locally. 
 
@@ -33,3 +33,26 @@ To do:
 - [x] Install Naoqi SDK on raspberry pi: Giving error on pythen bit version
 - [ ] Develop and run script from raspberry pi to control Naoqi API
 - [ ] Setup network with Nao's and raspberry pi
+
+## New action plan
+
+The Nao Python SDK only works on x86 64Bit architecture and not on ARM 64Bit. This means that the software does not run on raspberry pi.
+
+The new plan is to use an old x86 mac mini, install ubuntu linux on it and run the software from there. As the latest Ubuntu distro comes with Pyhton 3.x pre installed, we plan to install anaconda to also make a 2.7 python environment available.
+
+- [x] Install [Ubuntu 24.04.2 LTS](https://ubuntu.com/blog/ubuntu-desktop-24-04-noble-numbat-deep-dive) on mac mini
+- [x] [Install SSH](https://www.cyberciti.biz/faq/how-to-install-ssh-on-ubuntu-linux-using-apt-get/)
+- [x] [Enable remote desktop](https://help.ubuntu.com/stable/ubuntu-help/sharing-desktop.html.ro)
+- [x] [Install anaconda](https://linuxconfig.org/installing-anaconda-on-ubuntu-24-04)
+- [x] Add python 2.7 environment to anaconda `conda create --name naoqi python=2.7`
+- [x] Enable naoqi environment `conda activate naoqi`
+- [x] Install NAOqi Python SDK, download [2.8.6 - Python 2.7 SDK](https://aldebaran.com/en/support/kb/nao6/downloads/nao6-software-downloads/). 
+- [x] Exctract tar.gz to directory `cd home/nao/` extract file there `tar -xvzf pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327.tar.gz`
+- [x] Add SDK to python path `export PYTHONPATH=${PYTHONPATH}:~/nao/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages`
+- [x] Run python 2.7 in naoqi conda environment `python`
+- [x] Import NAOqi in python `import naoqi`
+- [x] Check if it works `noaqi`
+- [ ] Setup network with Nao's and mac mini
+- [ ] Assign fixed IP's to Nao's
+- [ ] Develop and run script from raspberry pi to control Naoqi API
+
