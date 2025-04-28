@@ -52,7 +52,11 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [x] Run python 2.7 in naoqi conda environment `python`
 - [x] Import NAOqi in python `import naoqi`
 - [x] Check if it works `noaqi`
-- [ ] Setup router tp-link u:admin
-- [ ] Assign fixed IP's to Nao's
+- [x] Setup router tp-link u:admin
+- [x] Assign fixed IP's to Nao's
+      - nao1: 192.168.0.102
+      - nao2: 192.168.0.103
+      - nao3: 192.168.0.101
+      - nao4: 192.168.0.105
 - [ ] Develop and run script from raspberry pi to control Naoqi API
 
