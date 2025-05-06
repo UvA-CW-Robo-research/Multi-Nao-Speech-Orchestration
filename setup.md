@@ -49,14 +49,16 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [x] Install NAOqi Python SDK, download [2.8.6 - Python 2.7 SDK](https://aldebaran.com/en/support/kb/nao6/downloads/nao6-software-downloads/). 
 - [x] Exctract tar.gz to directory `cd home/nao/` extract file there `tar -xvzf pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327.tar.gz`
 - [x] Add SDK to python path `export PYTHONPATH=${PYTHONPATH}:~/nao/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages`
+- [x] Make path permanent
 - [x] Run python 2.7 in naoqi conda environment `python`
+- [x] set naoqi to default environment
 - [x] Import NAOqi in python `import naoqi`
 - [x] Check if it works `noaqi`
 - [x] Setup router tp-link u:admin
 - [x] Assign fixed IP's to Nao's
-      - nao1: 192.168.0.102
-      - nao2: 192.168.0.103
-      - nao3: 192.168.0.101
-      - nao4: 192.168.0.105
-- [ ] Develop and run script from raspberry pi to control Naoqi API
+    - nao1: 192.168.0.102
+    - nao2: 192.168.0.103
+    - nao3: 192.168.0.101
+    - nao4: 192.168.0.105
+- [x] Develop and run script from mac mini to control Naoqi API
 

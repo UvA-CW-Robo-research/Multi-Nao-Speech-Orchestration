@@ -434,18 +434,28 @@ directory <code>cd home/nao/</code> extract file there
 <code>tar -xvzf pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327.tar.gz</code></label></li>
 <li><label><input type="checkbox" checked></input>Add SDK to python path
 <code>export PYTHONPATH=${PYTHONPATH}:~/nao/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages</code></label></li>
+<li><label><input type="checkbox" checked></input>Make path
+permanent</label></li>
 <li><label><input type="checkbox" checked></input>Run python 2.7 in naoqi
 conda environment <code>python</code></label></li>
+<li><label><input type="checkbox" checked></input>set naoqi to default
+environment</label></li>
 <li><label><input type="checkbox" checked></input>Import NAOqi in python
 <code>import naoqi</code></label></li>
 <li><label><input type="checkbox" checked></input>Check if it works
 <code>noaqi</code></label></li>
-<li><label><input type="checkbox"></input>Setup network with Nao’s and mac
-mini</label></li>
-<li><label><input type="checkbox"></input>Assign fixed IP’s to
-Nao’s</label></li>
-<li><label><input type="checkbox"></input>Develop and run script from
-raspberry pi to control Naoqi API</label></li>
+<li><label><input type="checkbox" checked></input>Setup router tp-link
+u:admin</label></li>
+<li><label><input type="checkbox" checked></input>Assign fixed IP’s to
+Nao’s</label>
+<ul>
+<li>nao1: 192.168.0.102</li>
+<li>nao2: 192.168.0.103</li>
+<li>nao3: 192.168.0.101</li>
+<li>nao4: 192.168.0.105</li>
+</ul></li>
+<li><label><input type="checkbox" checked></input>Develop and run script
+from mac mini to control Naoqi API</label></li>
 </ul>
 </div>
 
