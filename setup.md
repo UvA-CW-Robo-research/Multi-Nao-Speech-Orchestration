@@ -76,7 +76,6 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
       - The config file will be saved automatically
 - [ ] Turn off mac mini through researcher's terminal
     - `ssh nao@naoserver.local`
-    - Enter the password (See usernames and passwords.docx in Teams)
+    - See password from "usernames and passwords.docx" in Teams
     - `sudo shutdown -h now`
-    - Enter the password again
 
