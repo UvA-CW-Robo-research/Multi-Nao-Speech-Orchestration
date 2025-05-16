@@ -69,9 +69,9 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - Step 2: Click the bottom left blue icon to open a remote window
     - Step 3: Click "Connect to Host..." --> "Configure SSH..." --> select the top config file from users (e.g., /Users/Name/.ssh/config)
     - Step 4: ignore the existing texts in the config file and type the following code:
-      - <pre> ```ssh Host naoserver 
+      - <pre> Host naoserver 
           ....HostName naoserver.local 
-          ....User nao ``` </pre>
+          ....User nao </pre>
       - The config file will be saved automatically
 
 
