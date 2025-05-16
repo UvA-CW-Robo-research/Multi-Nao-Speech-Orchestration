@@ -66,10 +66,10 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [ ] Connect the experimenter's mac with the tp-link and the mac mini (with an adapter)
 - [ ] Setup a VScode ssh connection with the mac mini
     - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
-    - Step 1: Download "Remote - SSH" by Microsoft from the extensions
-    - Step 2: Click the bottom left blue icon to open a remote window
-    - Step 3: Click "Connect to Host..." --> "Configure SSH..." --> select the top config file from users (e.g., /Users/Name/.ssh/config)
-    - Step 4: ignore the existing texts in the config file and type the following code:
+    - Download "Remote - SSH" by Microsoft from the extensions
+    - Click the bottom left blue icon to open a remote window
+    - Click "Connect to Host..." --> "Configure SSH..." --> select the top config file from users (e.g., /Users/Name/.ssh/config)
+    - Ignore the existing texts in the config file and type the following code:
       - <pre> Host naoserver 
           ....HostName naoserver.local 
           ....User nao </pre>
