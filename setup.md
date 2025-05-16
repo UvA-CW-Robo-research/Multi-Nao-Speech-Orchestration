@@ -49,7 +49,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [x] Install NAOqi Python SDK, download [2.8.6 - Python 2.7 SDK](https://aldebaran.com/en/support/kb/nao6/downloads/nao6-software-downloads/). 
 - [x] Exctract tar.gz to directory `cd home/nao/` extract file there `tar -xvzf pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327.tar.gz`
 - [x] Add SDK to python path `export PYTHONPATH=${PYTHONPATH}:~/nao/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages`
-- [x] Make path permanent
+- [x] Make path permanent (improve)
 - [x] Run python 2.7 in naoqi conda environment `python`
 - [x] set naoqi to default environment
 - [x] Import NAOqi in python `import naoqi`
