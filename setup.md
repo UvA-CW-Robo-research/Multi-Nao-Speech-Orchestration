@@ -77,7 +77,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [ ] Open terminal in VScode
     - Connect local to host (naoserver)
     - Click "Terminal" in the menu bar and select "New Terminal"
-    - I don't remember the following commands (update next time working on the project)
+    - type `python` + drag/type the path and then tap the enter key to run the code
 - [ ] Turn off mac mini through researcher's terminal
     - `ssh nao@naoserver.local`
     - See password from "usernames and passwords.docx" in Teams
