@@ -55,7 +55,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [x] Run python 2.7 in naoqi conda environment `python`
 - [x] set naoqi to default environment
 - [x] Import NAOqi in python `import naoqi`
-- [x] Check if it works `noaqi`
+- [x] Check if it works `naoqi`
 - [x] Setup router tp-link u:admin
 - [x] Assign fixed IP's to Nao's
     - nao1: 192.168.0.102
@@ -83,3 +83,5 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - See password from "usernames and passwords.docx" in Teams
     - `sudo shutdown -h now`
 
+## Naoqi APIs
+- http://doc.aldebaran.com/2-1/naoqi/index.html
