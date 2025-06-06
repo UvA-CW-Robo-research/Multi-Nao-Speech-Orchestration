@@ -83,5 +83,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - See password from "usernames and passwords.docx" in Teams
     - `sudo shutdown -h now`
 
-## Naoqi APIs
-- http://doc.aldebaran.com/2-1/naoqi/index.html
+## Test the robot
+- (Naoqi APIs)[http://doc.aldebaran.com/2-1/naoqi/index.html]
+- Set up a virtual NAO robot V6 in the software Choregraphe (version 2.8) - didn't work out
+- (Virtual Nao)[https://github.com/ros-naoqi/nao_virtual?tab=readme-ov-file]
