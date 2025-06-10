@@ -89,6 +89,8 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
       - Check the default list of available voices: `print(tts.getAvailableVoices())`
 
+- [ ] Set up [face tracker](http://doc.aldebaran.com/2-1/naoqi/trackers/altracker.html#ready-to-move-robot) with head movement only 
+
 
 ## Guideline for setting up the experiment
 1. Connect all equipments (e.g., mac mini, tp-link, researcher laptop, robots).
