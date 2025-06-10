@@ -86,5 +86,13 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 ## Test the robot
 - [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
 - Set up a virtual NAO robot V6 in the software Choregraphe (version 2.8)
-- [ ] Write down how to find all voice packages (!)
 - [ ] Check the default list of available voices: `print(tts.getAvailableVoices())`
+
+
+## Guideline for setting up the experiment
+1. Connect all equipments (e.g., mac mini, tp-link, researcher laptop, robots).
+2. Set up the robots in the right positions (make a photo and attach it here later).
+3. Run [the preparation script]() to make all robots sit in the same posture.
+4. Run the interaction script.
+5. Run the code to play the audio for the cover story.
+6. Run the experiment script.
