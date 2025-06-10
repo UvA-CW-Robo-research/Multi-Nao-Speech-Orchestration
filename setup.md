@@ -86,8 +86,8 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 ## Test the robot
 - [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
 - [ ] Set up a virtual NAO robot V6 in the software Choregraphe (version 2.8)
-- [ ] Check the default list of available voices: `print(tts.getAvailableVoices())`
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-4/naoqi/audio/altexttospeech-tuto.html?highlight=speed#:~:text=%23%20Creates%20a%20proxy%20on%20the,pitch%20of%20the%20main%20voice.)
+      - Check the default list of available voices: `print(tts.getAvailableVoices())`
 
 
 ## Guideline for setting up the experiment
