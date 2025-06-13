@@ -20,7 +20,7 @@
 
 4. Run the [interaction script]().
 5. Play the audio for the cover story.
-6. Run the experiment script.
+6. Run the [experiment script]() based on the experimental condition (consistent vs. inconsistent).
 7. Turn off all devices before leaving the lab.
   - How to turn off mac mini and tp-link through the terminal?
     - Open terminal on the researcher's laptop.
