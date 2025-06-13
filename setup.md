@@ -88,7 +88,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 
 ## Guideline for setting up the experiment
 1. Connect all equipments (e.g., mac mini, tp-link, researcher laptop, robots).
-2. Run [the preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant.
+2. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant.
 3. Set up the robots in the right positions (see figure below). ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
 
 4. Run the interaction script.
