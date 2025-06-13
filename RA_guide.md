@@ -1,7 +1,7 @@
 ## Guideline for research assistant to set up the experiment
 1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).
-   - Connect the experimenter's mac with the tp-link and the mac mini (with an adapter).
-   - Setup a VScode ssh connection with the mac mini (only required for the first time):
+  - Open terminal in VScodeConnect the experimenter's mac with the tp-link and the mac mini (with an adapter).
+  - Setup a VScode ssh connection with the mac mini (only required for the first time):
     - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
     - Download "Remote - SSH" by Microsoft from the extensions
     - Click the bottom left blue icon to open a remote window
