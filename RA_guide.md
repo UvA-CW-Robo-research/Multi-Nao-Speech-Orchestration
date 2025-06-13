@@ -1,5 +1,5 @@
 ## Guideline for research assistant to set up the experiment
-1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).
+***1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).***
   - Open terminal in VScodeConnect the experimenter's mac with the tp-link and the mac mini (with an adapter).
   - Setup a VScode ssh connection with the mac mini (only required for the first time):
     - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
@@ -15,13 +15,13 @@
     - Connect local to host (naoserver)
     - Click "Terminal" in the menu bar and select "New Terminal"
     - type `python` + drag/type the path and then tap the enter key to run the code
-2. Set up the robots in the right positions (see figure below). ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
-3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant. 
+***2. Set up the robots in the right positions (see figure below).*** ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
+***3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant.*** 
 
-4. Run the [interaction script]().
-5. Play the audio for the cover story.
-6. Run the [experiment script]() based on the condition (consistent vs. inconsistent).
-7. Turn off all devices before leaving the lab.
+***4. Run the [interaction script]().***
+***5. Play the audio for the cover story.***
+***6. Run the [experiment script]() based on the condition (consistent vs. inconsistent).***
+***7. Turn off all devices before leaving the lab.***
   - How to turn off mac mini and tp-link through the terminal?
     - Open terminal on the researcher's laptop.
     - Copy and paste: `ssh nao@naoserver.local`
