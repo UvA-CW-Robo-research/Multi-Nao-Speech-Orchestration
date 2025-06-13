@@ -21,8 +21,11 @@
 ***3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant.*** 
 
 ***4. Run the [interaction script]().***
+
 ***5. Play the audio for the cover story.***
+
 ***6. Run the [experiment script]() based on the condition (consistent vs. inconsistent).***
+
 ***7. Turn off all devices before leaving the lab.***
   - How to turn off mac mini and tp-link through the terminal?
     - Open terminal on the researcher's laptop.
