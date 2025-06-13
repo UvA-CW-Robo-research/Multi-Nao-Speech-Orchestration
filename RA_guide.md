@@ -1,5 +1,20 @@
 ## Guideline for research assistant to set up the experiment
 1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).
+- Connect the experimenter's mac with the tp-link and the mac mini (with an adapter)
+- Setup a VScode ssh connection with the mac mini (only required for the first time)
+    - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
+    - Download "Remote - SSH" by Microsoft from the extensions
+    - Click the bottom left blue icon to open a remote window
+    - Click "Connect to Host..." --> "Configure SSH..." --> select the top config file from users (e.g., /Users/Name/.ssh/config)
+    - Ignore the existing texts in the config file and type the following code:
+      - <pre> Host naoserver 
+          ....HostName naoserver.local 
+          ....User nao </pre>
+      - The config file will be saved automatically
+- Open terminal in VScode
+    - Connect local to host (naoserver)
+    - Click "Terminal" in the menu bar and select "New Terminal"
+    - type `python` + drag/type the path and then tap the enter key to run the code
 2. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant.
 3. Set up the robots in the right positions (see figure below). ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
 
