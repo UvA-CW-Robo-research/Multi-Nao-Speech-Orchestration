@@ -35,25 +35,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - nao4: 192.168.0.105
 - [x] Develop and run script from mac mini to control Naoqi API
 
-- [ ] Connect the experimenter's mac with the tp-link and the mac mini (with an adapter)
-- [ ] Setup a VScode ssh connection with the mac mini
-    - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
-    - Download "Remote - SSH" by Microsoft from the extensions
-    - Click the bottom left blue icon to open a remote window
-    - Click "Connect to Host..." --> "Configure SSH..." --> select the top config file from users (e.g., /Users/Name/.ssh/config)
-    - Ignore the existing texts in the config file and type the following code:
-      - <pre> Host naoserver 
-          ....HostName naoserver.local 
-          ....User nao </pre>
-      - The config file will be saved automatically
-- [ ] Open terminal in VScode
-    - Connect local to host (naoserver)
-    - Click "Terminal" in the menu bar and select "New Terminal"
-    - type `python` + drag/type the path and then tap the enter key to run the code
-- [ ] Turn off mac mini through researcher's terminal
-    - `ssh nao@naoserver.local`
-    - See password from "usernames and passwords.docx" in Teams
-    - `sudo shutdown -h now`
+
 
 ## Test the robot
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
@@ -63,15 +45,3 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 
 - [ ] Set up [face tracker](http://doc.aldebaran.com/2-1/naoqi/trackers/altracker.html#ready-to-move-robot) with head movement only 
     - Note: some arguments for the used parameters (e.g., `stiffnessInterpolation` and `registerTarget`) are not entirely clear (see the python script).
-
-## Guideline for setting up the experiment
-1. Connect all equipments (e.g., mac mini, tp-link, researcher laptop, robots).
-2. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/preparation.py) to make all robots sit in the same posture and look at the participant.
-3. Set up the robots in the right positions (see figure below). ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
-
-4. Run the interaction script.
-5. Play the audio for the cover story.
-6. Run the experiment script.
-
-## Notice 🔋
-- A blinking red light on NAO's chest button signifies that the battery charge is low, and the robot should be charged immediately while turned off.
