@@ -1,7 +1,7 @@
 # Load library
 from naoqi import ALProxy
 
-# Configure robot's movement, speech, tracker
+# Configure robot's motion, audio, and trackers
 nao1speech = ALProxy("ALTextToSpeech", "192.168.0.102", 9559)
 nao1tracker = ALProxy("ALTracker", "192.168.0.102", 9559)
 nao1move = ALProxy("ALMotion", "192.168.0.102", 9559)
@@ -20,29 +20,25 @@ nao4move = ALProxy("ALMotion", "192.168.0.105", 9559)
 
 
 # Face tracker with head movement only
-nao1move.stiffnessInterpolation("HeadYaw", 1.0, 5.0) # time argument not so sure
-nao1tracker.registerTarget("Face", 5) # width parameter not so sure
+nao1move.stiffnessInterpolation("HeadYaw", 1.0, 1.0) # 1.0 for full stiffness, 1.0 for time to change the stiffness
+nao1tracker.registerTarget("Face", 0.12) # width of human face
 nao1tracker.track("Face")
 nao1tracker.setMode("Head")
-# print(nao1tracker.isActive())
 
-nao2move.stiffnessInterpolation("HeadYaw", 1.0, 5.0) # time argument not so sure
-nao2tracker.registerTarget("Face", 5) # width parameter not so sure
+nao2move.stiffnessInterpolation("HeadYaw", 1.0, 1.0) # 1.0 for full stiffness, 1.0 for time to change the stiffness
+nao2tracker.registerTarget("Face", 0.12) # width of human face
 nao2tracker.track("Face")
 nao2tracker.setMode("Head")
-# print(nao2tracker.isActive())
 
-nao3move.stiffnessInterpolation("HeadYaw", 1.0, 5.0) # time argument not so sure
-nao3tracker.registerTarget("Face", 5) # width parameter not so sure
+nao3move.stiffnessInterpolation("HeadYaw", 1.0, 1.0) # 1.0 for full stiffness, 1.0 for time to change the stiffness
+nao3tracker.registerTarget("Face", 0.12) # width of human face
 nao3tracker.track("Face")
 nao3tracker.setMode("Head")
-# print(nao3tracker.isActive())
 
-nao4move.stiffnessInterpolation("HeadYaw", 1.0, 5.0) # time argument not so sure
-nao4tracker.registerTarget("Face", 5) # width parameter not so sure
+nao4move.stiffnessInterpolation("HeadYaw", 1.0, 1.0) # 1.0 for full stiffness, 1.0 for time to change the stiffness
+nao4tracker.registerTarget("Face", 0.12) # width of human face
 nao4tracker.track("Face")
 nao4tracker.setMode("Head")
-# print(nao4tracker.isActive())
 
 
 # Modify speed
@@ -64,7 +60,6 @@ nao2speech.setParameter("pitchShift", 0.8)
 nao3speech.setParameter("pitchShift", 1)
 nao4speech.setParameter("pitchShift", 1)
 
-print(nao4speech.getAvailableVoices())
 
 
 # Conversations in the experiment (inconsistent version)
