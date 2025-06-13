@@ -6,4 +6,4 @@ For student research assistant:
 
 For developer: 
 - [action_failed.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/action_failed.md)
-- []()
+- [setup.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/setup.md)
