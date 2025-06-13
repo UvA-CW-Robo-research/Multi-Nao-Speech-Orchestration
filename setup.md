@@ -1,9 +1,3 @@
----
-title: "Multi Nao Speech Orchestration"
-subtitle: "Setup"
-output: html_document
----
-
 Pre-requisites
 
 1. Nao version 2.8.6.23 uses older python version. Though it does need 64 bit.
