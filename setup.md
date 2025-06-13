@@ -94,3 +94,6 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 4. Run the interaction script.
 5. Play the audio for the cover story.
 6. Run the experiment script.
+
+## Notice
+- The robots should be charged while turned off.
