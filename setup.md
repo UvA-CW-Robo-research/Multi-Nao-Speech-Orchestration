@@ -1,4 +1,4 @@
-Pre-requisites
+## Pre-requisites
 
 1. Nao version 2.8.6.23 uses older python version. Though it does need 64 bit.
 2. Go to [Softbank](http://doc.aldebaran.com/2-5/dev/python/index.html) download the python sdk for your operating system. This website is not up-to-date. The instructions on getting the Python SDK are not correct. Go to [aldebaran.com support](https://aldebaran.com/en/support/kb/nao6/downloads/nao6-software-downloads/), create an account log in and you can download the 2.8.6 - Python 2.7 SDK from downloads > SDK. 
