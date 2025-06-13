@@ -27,10 +27,13 @@
     - Connect local to host (naoserver)
     - Click "Terminal" in the menu bar and select "New Terminal"
     - type `python` + drag/type the path and then tap the enter key to run the code
-- Turn off mac mini through researcher's terminal
-    - `ssh nao@naoserver.local`
-    - See password from "usernames and passwords.docx" in Teams
-    - `sudo shutdown -h now`
+
+## How to turn off mac mini and tp-link through the terminal?
+- Open terminal on the researcher's laptop.
+- Copy and paste: `ssh nao@naoserver.local`
+- Enter the password (See "usernames and passwords.docx" in Teams)
+- Copy and paste: `sudo shutdown -h now`
+- Enter the same password.
 
 ## Test the robot
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
