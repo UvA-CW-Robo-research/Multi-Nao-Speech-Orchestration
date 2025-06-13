@@ -34,6 +34,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - nao3: 192.168.0.101
     - nao4: 192.168.0.105
 - [x] Develop and run script from mac mini to control Naoqi API
+
 - [ ] Connect the experimenter's mac with the tp-link and the mac mini (with an adapter)
 - [ ] Setup a VScode ssh connection with the mac mini
     - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
