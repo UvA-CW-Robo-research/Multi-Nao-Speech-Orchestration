@@ -95,5 +95,5 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 5. Play the audio for the cover story.
 6. Run the experiment script.
 
-## Notice
+## Notice 🔋
 - A blinking red light on NAO's chest button signifies that the battery charge is low, and the robot should be charged immediately while turned off.
