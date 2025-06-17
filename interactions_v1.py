@@ -2,6 +2,8 @@
 from naoqi import ALProxy
 import time
 
+### Create a new file and code for the modules' setup
+
 # Configure robot's motion, audio, and trackers
 nao1speech = ALProxy("ALTextToSpeech", "192.168.0.102", 9559)
 nao1tracker = ALProxy("ALTracker", "192.168.0.102", 9559)
