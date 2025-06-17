@@ -21,7 +21,7 @@ nao4pose.goToPosture("Sit", 1.0)
 # Set head stiffness so head can move
 nao1move.setStiffnesses("Head", 1.0)
 nao2move.setStiffnesses("Head", 1.0)
-#nao3move.setStiffnesses("Head", 1.0)
+nao3move.setStiffnesses("Head", 1.0)
 nao4move.setStiffnesses("Head", 1.0)
 
 
