@@ -94,14 +94,14 @@ while time.time() - start_time < 5:
         break
     time.sleep(0.1)
 
-sound_detector.unsubscribe(subscriber_name)
+sound_detector.unsubscribe("MySoundDetector")
 print("Sound detection stops.")
 
 
 if sound_detected:
     print("It is a pleasure to meet you! I am Chris.")
 else:
-    print("I did not really hear your name as your voice was a bit low, but my name is Chris.")
+    print("I did not really hear your name as your voice was a bit low, but my name is Chris.") # I'm a bit deaf.
 
 
 # Robot 3 speaks
