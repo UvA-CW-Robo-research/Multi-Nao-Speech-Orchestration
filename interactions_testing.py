@@ -2,13 +2,6 @@
 from test_setup import *  
 
 
-# Import tools from pynput to press keys and listen for keyboard input:
-# - Key: special keys like Enter or Shift
-# - Controller: to press or release keys in code
-# - Listener: to watch for key presses by the user
-from pynput.keyboard import Key, Controller
-
-
 # Face tracker with head movement only
 nao1move.stiffnessInterpolation("HeadYaw", 1.0, 1.0) # 1.0 for full stiffness, 1.0 for time to change the stiffness
 
