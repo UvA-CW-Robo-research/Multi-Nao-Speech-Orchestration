@@ -1,3 +1,6 @@
+# Import all predefined proxies from the self-defined file 
+from nao_setup import *
+
 # Define a list of dictionaries, each representing one robot.
 # Each dictionary contains:
 # - 'move': the motion control object to manage joint stiffness and movement
