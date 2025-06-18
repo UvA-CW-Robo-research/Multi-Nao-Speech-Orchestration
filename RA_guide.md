@@ -24,7 +24,9 @@
 
 ***5. Play the audio for the cover story.***
 
-***6. Run the [experiment script]() based on the condition (consistent vs. inconsistent).***
+***6. Run the [experiment script]().***
+- Press 'f' on keyboard AND then hit 'Enter'for CONSISTENT version
+- Press 'j' on keyboard AND then hit 'Enter' for INCONSISTENT version
 
 ***7. Turn off all devices before leaving the lab.***
   - How to turn off mac mini and tp-link through the terminal?
