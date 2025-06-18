@@ -38,7 +38,7 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - Download [pynput 1.5.2](https://files.pythonhosted.org/packages/source/p/pynput/pynput-1.5.2.tar.gz) and [python-xlib wheel for Python 2.7](https://pypi.org/project/python-xlib/#files) to local desktop.
     - Build wheel files through local terminal: `cd ~/Desktop` -> `tar -xvzf pynput-1.5.2.tar.gz` -> `cd pynput-1.5.2` -> `pip wheel . --wheel-dir=wheelhouse`.
     - Drap `python_xlib-0.33-py2.py3-none-any.whl` and`pynput-1.5.2-py2.py3-none-any.whl`, `six-1.17.0-py2.py3-none-any.whl`, `enum34-1.1.10-py2-none-any.whl` from the wheelhouse folder to directory `~/nao/`.
-    - Install the packages offline on mac mini: `conda activate naoqi` -> `pip install ./*.whl`.
+    - Install the packages offline on mac mini: `conda activate naoqi` -> `cd ~/nao` -> `pip install ./*.whl`.
 
 
 
