@@ -1,4 +1,4 @@
-# Import all predefined proxies
+# Import all predefined proxies from the self-defined file 
 from nao_setup import *
 
 
