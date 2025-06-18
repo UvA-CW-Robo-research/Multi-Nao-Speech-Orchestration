@@ -44,9 +44,6 @@ for robot in robots:
     # This allows individual robots to have distinct voice tones.
     robot['speech'].setParameter("pitchShift", robot['pitch'])
 
-
-
-
 # Conversations in the experiment (inconsistent version)
 nao1speech.say("I agree with the news story. I'm a robot connected to smart thermostats via the internet. I know a lot about the technology to evaluate its performance. I have almost always experienced such issues in the homes where I was.")
 nao4speech.say("I do agree with the news story. In the homes where I was, I have experienced all the issues mentioned in the news story.")
