@@ -23,7 +23,7 @@ name = raw_input()  # Python 2.7 input
 
 nao1speech.say("Did you manage to find the lab easily?")
 
-answer = raw_input("Please type 'f' or 'j' and hit Enter: ")
+answer = raw_input("Please type 'f' or 'j' and hit Enter: ").lower()
 if answer == 'f':
     nao1speech.say("That's good to hear!")
 elif answer == 'j':
