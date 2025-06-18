@@ -49,6 +49,14 @@ del _check` with `def _check():
     pass`
     - Save `Ctrl + O` -> Tap enter key -> exit `Ctrl + X `.
     - Test if pynput works: `python -c "from pynput.keyboard import Key, Controller, Listener; print('pynput works')"`.
+- [ ] Enable X11 forwarding:
+    - Download [Quartz](https://www.xquartz.org/) to local macOS.
+    - Run `ssh -X nao@naoserver.local` in local terminal -> `sudo nano /etc/ssh/sshd_config` -> find and changes lines to `X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost yes`
+    - Save `Ctrl + O` -> Tap enter key -> exit `Ctrl + X `.
+    - Restart the SSH server: `sudo systemctl restart sshd`.
+    - Connect with X11 forwarding (enabled): `ssh -X nao@naoserver.local` -> type `yes` -> 
 
 
 
