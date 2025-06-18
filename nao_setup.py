@@ -12,26 +12,26 @@ nao4_ip = "192.168.0.105"
 port = 9559
 
 # Initialize proxies for NAO1
-nao1speech = ALProxy("ALTextToSpeech", nao1_ip, port)
-nao1tracker = ALProxy("ALTracker", nao1_ip, port)
-nao1move = ALProxy("ALMotion", nao1_ip, port)
-nao1pose = ALProxy("ALRobotPosture", nao1_ip, port)
+nao1speech = ALProxy("ALTextToSpeech", nao1_ip, port) # The ALTextToSpeech module allows the robot to speak.
+nao1tracker = ALProxy("ALTracker", nao1_ip, port) # The ALTracker module allows the robot to track different targets using different means (head only, whole body, move, etc).
+nao1move = ALProxy("ALMotion", nao1_ip, port) # The ALMotion module provides methods which facilitate making the robot move.
+nao1pose = ALProxy("ALRobotPosture", nao1_ip, port) # ALRobotPosture module allows you to make the robot go to different predefined postures.
 
 # Initialize proxies for NAO2
-nao2speech = ALProxy("ALTextToSpeech", nao2_ip, port)
-nao2tracker = ALProxy("ALTracker", nao2_ip, port)
-nao2move = ALProxy("ALMotion", nao2_ip, port)
-nao2pose = ALProxy("ALRobotPosture", nao2_ip, port)
+nao2speech = ALProxy("ALTextToSpeech", nao2_ip, port) # The ALTextToSpeech module allows the robot to speak.
+nao2tracker = ALProxy("ALTracker", nao2_ip, port) # The ALTracker module allows the robot to track different targets using different means (head only, whole body, move, etc).
+nao2move = ALProxy("ALMotion", nao2_ip, port) # The ALMotion module provides methods which facilitate making the robot move.
+nao2pose = ALProxy("ALRobotPosture", nao2_ip, port) # ALRobotPosture module allows you to make the robot go to different predefined postures.
 
 # Initialize proxies for NAO3
-nao3speech = ALProxy("ALTextToSpeech", nao3_ip, port)
-nao3tracker = ALProxy("ALTracker", nao3_ip, port)
-nao3move = ALProxy("ALMotion", nao3_ip, port)
-nao3pose = ALProxy("ALRobotPosture", nao3_ip, port)
+nao3speech = ALProxy("ALTextToSpeech", nao3_ip, port) # The ALTextToSpeech module allows the robot to speak.
+nao3tracker = ALProxy("ALTracker", nao3_ip, port) # The ALTracker module allows the robot to track different targets using different means (head only, whole body, move, etc).
+nao3move = ALProxy("ALMotion", nao3_ip, port) # The ALMotion module provides methods which facilitate making the robot move.
+nao3pose = ALProxy("ALRobotPosture", nao3_ip, port) # ALRobotPosture module allows you to make the robot go to different predefined postures.
 
 # Initialize proxies for NAO4
-nao4speech = ALProxy("ALTextToSpeech", nao4_ip, port)
-nao4tracker = ALProxy("ALTracker", nao4_ip, port)
-nao4move = ALProxy("ALMotion", nao4_ip, port)
-nao4pose = ALProxy("ALRobotPosture", nao4_ip, port)
+nao4speech = ALProxy("ALTextToSpeech", nao4_ip, port) # The ALTextToSpeech module allows the robot to speak.
+nao4tracker = ALProxy("ALTracker", nao4_ip, port) # The ALTracker module allows the robot to track different targets using different means (head only, whole body, move, etc).
+nao4move = ALProxy("ALMotion", nao4_ip, port) # The ALMotion module provides methods which facilitate making the robot move.
+nao4pose = ALProxy("ALRobotPosture", nao4_ip, port) # ALRobotPosture module allows you to make the robot go to different predefined postures.
 
