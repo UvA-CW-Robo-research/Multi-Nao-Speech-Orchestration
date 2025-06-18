@@ -60,6 +60,6 @@ df = pd.read_excel(version_file)
 # Speak each line of text with the corresponding robot
 for _, row in df.iterrows():
     robot = next(r for r in robots if r['id'] == row['robot_id'])
-    robot['speech'].say(row['line_text'])
+    robot['speech'].say(row['text'])
 
 
