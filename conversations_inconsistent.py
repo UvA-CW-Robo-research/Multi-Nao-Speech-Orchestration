@@ -1,23 +1,5 @@
-# Load library
-from naoqi import ALProxy
-
-# Configure robot's motion, audio, and trackers
-nao1speech = ALProxy("ALTextToSpeech", "192.168.0.102", 9559)
-nao1tracker = ALProxy("ALTracker", "192.168.0.102", 9559)
-nao1move = ALProxy("ALMotion", "192.168.0.102", 9559)
-
-nao2speech = ALProxy("ALTextToSpeech", "192.168.0.103", 9559)
-nao2tracker = ALProxy("ALTracker", "192.168.0.103", 9559)
-nao2move = ALProxy("ALMotion", "192.168.0.103", 9559)
-
-nao3speech = ALProxy("ALTextToSpeech", "192.168.0.101", 9559)
-nao3tracker = ALProxy("ALTracker", "192.168.0.101", 9559)
-nao3move = ALProxy("ALMotion", "192.168.0.101", 9559)
-
-nao4speech = ALProxy("ALTextToSpeech", "192.168.0.105", 9559)
-nao4tracker = ALProxy("ALTracker", "192.168.0.105", 9559)
-nao4move = ALProxy("ALMotion", "192.168.0.105", 9559)
-
+# Import all predefined proxies
+from nao_setup import *
 
 # Face tracker with head movement only
 nao1move.stiffnessInterpolation("HeadYaw", 1.0, 1.0) # 1.0 for full stiffness, 1.0 for time to change the stiffness
