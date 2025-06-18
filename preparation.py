@@ -1,16 +1,5 @@
-# Load library
-from naoqi import ALProxy
-
-# Configure robot's motion and posture
-nao1move = ALProxy("ALMotion", "192.168.0.102", 9559)
-nao2move = ALProxy("ALMotion", "192.168.0.103", 9559)
-nao3move = ALProxy("ALMotion", "192.168.0.101", 9559)
-nao4move = ALProxy("ALMotion", "192.168.0.105", 9559)
-
-nao1pose = ALProxy("ALRobotPosture", "192.168.0.102", 9559)
-nao2pose = ALProxy("ALRobotPosture", "192.168.0.103", 9559)
-nao3pose = ALProxy("ALRobotPosture", "192.168.0.101", 9559)
-nao4pose = ALProxy("ALRobotPosture", "192.168.0.105", 9559)
+# Import all predefined proxies
+from nao_setup import *
 
 # Set the posture to sti still
 nao1pose.goToPosture("Sit", 1.0)
