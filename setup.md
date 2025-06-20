@@ -34,11 +34,11 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - nao3: 192.168.0.101
     - nao4: 192.168.0.105
 - [x] Develop and run script from mac mini to control Naoqi API
-- [ ] Install `pandas` package to the mac mini (OFFLINE):
-    - Download `pandas` and its dependencies to local mac: `mkdir pandas_packages
-pip download pandas -d pandas_packages`.
-    - Drag the `pandas_packages` folder to the directory `~/nao/` on VS Code.
-    - Install `pandas` on the mac mini: 
+- [ ] Install `pandas27` package to the mac mini (OFFLINE):
+    - Download `pandas` and its dependencies to local mac: `mkdir pandas27
+pip download pandas==0.24.2 -d pandas27`.
+    - Drag the `pandas27` folder to the directory `~/nao/` on VS Code.
+    - Install `pandas` on the mac mini: `cd ~/nao/pandas27` -> `pip install --no-index --find-links=. pandas`.
 
 ## Test the robot
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
