@@ -35,8 +35,8 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - nao4: 192.168.0.105
 - [x] Develop and run script from mac mini to control Naoqi API
 - [ ] Install python 2.7 compatible version of the `pandas` package to the mac mini (OFFLINE):
-    - Download `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` from [pandas.PyPI](https://pypi.org/project/pandas/0.24.2/#files) and `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` from [numpy.PyPI](https://pypi.org/project/numpy/1.16.6/#files) to local laptop. (*Notice*: My laptop is macOS but the python 2.7 environment on mac mini is Linux, so the wheels must also be Linux)
-    - Drag the `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` and `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` to the mac mini directory `~/nao/` on VS Code.
+    - Download `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` from [pandas.PyPI](https://pypi.org/project/pandas/0.24.2/#files), `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` from [numpy.PyPI](https://pypi.org/project/numpy/1.16.6/#files), and `xlrd2-1.3.4-py2.py3-none-any.whl` from [xlrd2.PyPI](https://pypi.org/project/xlrd2/#files) to local laptop. (*Notice*: My laptop is macOS but the python 2.7 environment on mac mini is Linux, so the wheels must also be Linux)
+    - Drag the three wheel files to the mac mini directory `~/nao/` on VS Code.
     - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install ./*.whl`.
 
 ## Test the robot
