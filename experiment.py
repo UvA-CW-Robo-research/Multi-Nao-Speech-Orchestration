@@ -45,7 +45,7 @@ for robot in robots:
     robot['speech'].setParameter("pitchShift", robot['pitch'])
 
 # Ask user which version of the conversation to use
-version = raw_input("Press 'f' for CONSISTENT version, 'j' for INCONSISTENT version and hit Enter: ").lower()
+version = raw_input("Press 'f' (CONSISTENT) or 'j' (INCONSISTENT), then 'Enter': ").lower()
 
 if version == 'f':
     version_file = 'consistent.xlsx'
