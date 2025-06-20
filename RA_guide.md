@@ -20,7 +20,7 @@
 
 ***3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_preparation.py) to make all robots sit in the same posture and look at the participant.*** 
 
-***4. Run the [interaction script]().***
+***4. Run the [interaction script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_interactions.py).***
 
 ***5. Play the audio for the cover story.***
 
