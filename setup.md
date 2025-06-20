@@ -35,8 +35,9 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - nao4: 192.168.0.105
 - [x] Develop and run script from mac mini to control Naoqi API
 - [] Install `pandas` package to the mac mini (OFFLINE):
-    - `conda activate naoqi`
-    - `export PYTHONPATH=${PYTHONPATH}:~/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages/`
+    - Download `pandas` and its dependencies to local mac: `mkdir pandas_packages
+pip download pandas -d pandas_packages`.
+    - Drag the pandas_packages folder to VS Code: 
 
 ## Test the robot
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
