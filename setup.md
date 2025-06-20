@@ -34,11 +34,10 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - nao3: 192.168.0.101
     - nao4: 192.168.0.105
 - [x] Develop and run script from mac mini to control Naoqi API
-- [ ] Install `pandas27` package to the mac mini (OFFLINE):
-    - Download `pandas` and its dependencies to local mac: `mkdir pandas27
-pip download pandas==0.24.2 -d pandas27`.
-    - Drag the `pandas27` folder to the directory `~/nao/` on VS Code.
-    - Install `pandas` on the mac mini: `cd ~/nao/pandas27` -> `pip install --no-index --find-links=. pandas`.
+- [ ] Install python 2.7 compatible version of the `pandas` package to the mac mini (OFFLINE):
+    - Download `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` from [pandas.PyPI](https://pypi.org/project/pandas/0.24.2/#files) and `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` from [numpy.PyPI](https://pypi.org/project/numpy/1.16.6/#files) to local laptop. (*Notice*: My laptop is macOS but the python 2.7 environment on mac mini is Linux, so the wheels must also be Linux)
+    - Drag the `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` and `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` to the mac mini directory `~/nao/` on VS Code.
+    - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install --no-index --find-links=. pandas`.
 
 ## Test the robot
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
