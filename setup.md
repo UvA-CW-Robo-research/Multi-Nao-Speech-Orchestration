@@ -37,7 +37,8 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 - [] Install `pandas` package to the mac mini (OFFLINE):
     - Download `pandas` and its dependencies to local mac: `mkdir pandas_packages
 pip download pandas -d pandas_packages`.
-    - Drag the pandas_packages folder to VS Code: 
+    - Drag the `pandas_packages` folder to the directory `~/nao/` on VS Code.
+    - Install `pandas` on the mac mini: 
 
 ## Test the robot
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
