@@ -1,6 +1,8 @@
 # Import all predefined proxies from the self-defined file 
 from nao_setup import *
+from nao_preparation import *
 import time
+
 
 # Define a list of dictionaries, each representing one robot.
 # Each dictionary contains:
@@ -47,25 +49,35 @@ for robot in robots:
 
 
 # Greetings from all four robots
+# gesture on (this will be activated before the robot speaks)
 nao1speech.say("Hello, my name is Robin and I am a social robot. What is your name?")
+# gesture off
 
 ra_action1 = raw_input("Press 'Enter' when participant finishes speaking.")
 
-
+# gesture on
 nao1speech.say("It is a pleasure to meet you.")
+# gesture off
 time.sleep(1.5)
 
+# gesture on
 nao2speech.say("Hi, and I am Chris. Nice to meet you.")
+# gesture off
 time.sleep(1.5)
 
+# gesture on
 nao3speech.say("Hello, my name is Sam. It is great meeting you!")
+# gesture off
 time.sleep(1.5)
 
+# gesture on
 nao4speech.say("Hi there, I am Alex. Nice to meet you!")
+# gesture off
 time.sleep(2.5)
 
 
 # Question 1 from Chris
+# gesture on
 nao2speech.say("Some people struggled to find the lab. Did you manage to find the lab easily?")
 
 ra_action2 = raw_input("Press 'f' (YES) or 'j' (NO), then 'Enter': ").lower()
@@ -73,10 +85,13 @@ if ra_action2 == 'f':
     nao2speech.say("That's good to hear!")
 elif ra_action2 == 'j':
     nao2speech.say("It can be hard to find the lab, indeed, but luckily you made it.")
+    
+# gesture off
 
 # Question 2 from Alex
 time.sleep(1.5)
-nao4speech.say("Most people participated in experiments in this lab are students. Are you currently a student?")
+# gesture on
+nao4speech.say("Most people who participate in experiments in this lab are students. Are you currently a student?")
 
 ra_action3 = raw_input("Press 'f' (YES) or 'j' (NO), then 'Enter': ").lower()
 if ra_action3 == 'f':
@@ -87,8 +102,10 @@ elif ra_action3 == 'j':
 ra_action4 = raw_input("Press 'Enter' when participant finishes speaking.")
 
 nao4speech.say("Thanks for letting me know.")
+# gesture off
 
 # Question 3 from Sam
+# gesture on
 time.sleep(1.5)
 nao3speech.say("People do a lot of different things in their free time. What do you do in your free time?")
 
@@ -98,8 +115,11 @@ if ra_action5 == 'f':
 elif ra_action5 == 'j':
     nao3speech.say("I see. That is alright. Perhaps you will discover a new hobby in the future.")
 
+# gesture off
+
 # Question 4 from Robin
 time.sleep(1.5)
+# gesture on
 nao1speech.say("It is really nice that you came over for the experiment today. Do you frequently participate in experiments?")
 
 ra_action6 = raw_input("Press 'f' (YES) or 'j' (NO), then 'Enter': ").lower()
@@ -107,3 +127,5 @@ if ra_action6 == 'f':
     nao1speech.say("That is great!")
 elif ra_action6 == 'j':
     nao1speech.say("It is great that you will participate today!")
+
+# gesture off
