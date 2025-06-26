@@ -16,7 +16,7 @@
     - Click "Terminal" in the menu bar and select "New Terminal"
     - type `python` + drag/type the path and then tap the enter key to run the code
   
-***2. Set up the robots in the right positions (see figure below).*** ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
+***2. Set up the robots in the right positions (in a circle with the participant on the floor).*** ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
 
 ***3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_preparation.py) to make all robots sit in the same posture and look at the participant.*** 
 
