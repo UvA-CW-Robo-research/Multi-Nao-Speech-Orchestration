@@ -16,8 +16,8 @@ nao4move.setStiffnesses("Head", 1.0)
 
 # Turn nao1 and nao3 heads to the left
 nao1move.setAngles("HeadYaw", 0.7, 0.2)
-nao3move.setAngles("HeadYaw", 0.9, 0.2)
+nao3move.setAngles("HeadYaw", 0.5, 0.2)
 
 # Turn nao2 and nao4 heads to the right
-nao2move.setAngles("HeadYaw", -0.7, 0.2)
+nao2move.setAngles("HeadYaw", -0.3, 0.2)
 nao4move.setAngles("HeadYaw", -0.9, 0.2)
