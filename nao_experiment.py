@@ -1,5 +1,6 @@
 import pandas as pd
 from nao_setup import *
+import time
 
 # Define a list of dictionaries, each representing one robot.
 # Each dictionary contains:
@@ -66,5 +67,13 @@ for _, row in df.iterrows():
         robot = next(r for r in robots if r['id'] == row['robot_id'])
         # Convert text to string and send it to the robot's speech engine
         robot['speech'].say(str(row['text']))
+      # Pause after each speech (the code runs if the column time has a value)
+        if pd.notnull(row['time']):
+            print("Wait for {} seconds".format(row['time']))
+            time.sleep(float(row['time']))
 
 
+# Loop through each robot to terminate the head movement after the experiment
+for robot in robots:
+    # Set stiffness of the 'HeadYaw' joint to minimum (0.0) with a 1-second transition.
+    robot['move'].stiffnessInterpolation("HeadYaw", 0.0, 1.0)
