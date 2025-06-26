@@ -1,6 +1,6 @@
 ## Guideline for research assistant to set up the experiment
 
-***Prerequisite***
+**Prerequisite**
   - Setup a VScode ssh connection with the mac mini (only required for the first time):
     - [YouTube crash course](https://www.youtube.com/watch?v=cOopQQIL8JU)
     - Download VScode to the local device.
