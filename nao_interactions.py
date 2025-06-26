@@ -47,22 +47,26 @@ for robot in robots:
 
 
 # Greetings from all four robots
-nao1speech.say("Hello, it is nice to meet you! My name is Robin and I am a social robot. What is your name?")
+nao1speech.say("Hello, my name is Robin and I am a social robot. What is your name?")
 
 ra_action1 = raw_input("Press 'Enter' when participant finishes speaking.")
 
-nao2speech.say("It is a pleasure to meet you! I am Chris.")
-time.sleep(0.5)
 
-nao3speech.say("Hello, my name is Sam.")
-time.sleep(0.5)
-
-nao4speech.say("And my name is Alex.")
+nao1speech.say("It is a pleasure to meet you.")
 time.sleep(1.5)
+
+nao2speech.say("Hi, and I am Chris. Nice to meet you.")
+time.sleep(1.5)
+
+nao3speech.say("Hello, my name is Sam. It is great meeting you!")
+time.sleep(1.5)
+
+nao4speech.say("Hi there, I am Alex. Nice to meet you!")
+time.sleep(2.5)
 
 
 # Question 1 from Chris
-nao2speech.say("Did you manage to find the lab easily?")
+nao2speech.say("Some people struggled to find the lab. Did you manage to find the lab easily?")
 
 ra_action2 = raw_input("Press 'f' (YES) or 'j' (NO), then 'Enter': ").lower()
 if ra_action2 == 'f':
@@ -71,7 +75,8 @@ elif ra_action2 == 'j':
     nao2speech.say("It can be hard to find the lab, indeed, but luckily you made it.")
 
 # Question 2 from Alex
-nao4speech.say("Are you currently a student?")
+time.sleep(1.5)
+nao4speech.say("Most people participated in experiments in this lab are students. Are you currently a student?")
 
 ra_action3 = raw_input("Press 'f' (YES) or 'j' (NO), then 'Enter': ").lower()
 if ra_action3 == 'f':
@@ -84,15 +89,17 @@ ra_action4 = raw_input("Press 'Enter' when participant finishes speaking.")
 nao4speech.say("Thanks for letting me know.")
 
 # Question 3 from Sam
-nao3speech.say("What do you like to do in your free time?")
+time.sleep(1.5)
+nao3speech.say("People do a lot of different things in their free time. What do you do in your free time?")
 
 ra_action5 = raw_input("Press 'f' (activity MENTIONED) or 'j' (Do NOT know), then 'Enter': ").lower()
 if ra_action5 == 'f':
-    nao4speech.say("I see. That sounds very interesting!")
+    nao3speech.say("I see. That sounds very interesting!")
 elif ra_action5 == 'j':
-    nao4speech.say("I see. That is alright. Perhaps you will discover a new hobby in the future.")
+    nao3speech.say("I see. That is alright. Perhaps you will discover a new hobby in the future.")
 
 # Question 4 from Robin
+time.sleep(1.5)
 nao1speech.say("It is really nice that you came over for the experiment today. Do you frequently participate in experiments?")
 
 ra_action6 = raw_input("Press 'f' (YES) or 'j' (NO), then 'Enter': ").lower()
