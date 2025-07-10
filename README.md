@@ -1,7 +1,7 @@
 # Multi-Nao-Speach-Orchestration 🤖️
 Repository for code base to get multiple NAO robots with different versions orchestrate speech
 
-For student research assistant: 
+Guideline for research assistant to set up the experiment: 
 - [RA_guide.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/RA_guide.md)
 
 For developer: 
