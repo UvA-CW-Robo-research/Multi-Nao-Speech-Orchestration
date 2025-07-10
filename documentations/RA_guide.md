@@ -27,7 +27,7 @@
 ### 2. Set up the robots in the right positions (in a circle with the participant on the floor).
 ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
 
-### 3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_preparation.py) to make all robots sit in the same posture and look at the participant.
+### 3. Run the [preparation script](scripts/nao_preparation.py) to make all robots sit in the same posture and look at the participant.
 
 ### 4. Run the [interaction script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_interactions.py).
 - Press 'f' on keyboard AND then hit 'Enter' when the participant response is YES.
