@@ -15,4 +15,4 @@ Guidelines for setting up and running the experiment are available in [practice.
 Instructions for setting up the development environment can be found in [setup.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/documentations/setup.md)
 
 **Reference**:
-An archive of unsuccessful or deprecated action plans is available in [action_failed.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/action_failed.md)
+An archive of unsuccessful or deprecated action plans is available in [action_failed.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/documentations/action_failed.md)
