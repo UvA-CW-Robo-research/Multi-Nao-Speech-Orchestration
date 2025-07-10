@@ -36,7 +36,7 @@
   
 ### 5. Play the audio for the cover story.
 
-### 6. Run the [experiment script](XX).
+### 6. Run the [experiment script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/scripts/nao_experiment.py).
 - Press 'f' on keyboard AND then hit 'Enter'for CONSISTENT version
 - Press 'j' on keyboard AND then hit 'Enter' for INCONSISTENT version
 
