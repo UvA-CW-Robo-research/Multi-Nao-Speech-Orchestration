@@ -2,7 +2,7 @@
 Repository for code base to get multiple NAO robots with different versions orchestrate speech
 
 Guideline for research assistant to set up the experiment: 
-- [RA_guide.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/documentations/RA_guide.md)
+- [practice.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/documentations/RA_guide.md)
 
 For developer: 
 - [setup.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/setup.md)
