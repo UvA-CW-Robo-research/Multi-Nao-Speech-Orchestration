@@ -29,14 +29,14 @@
 
 ### 3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/scripts/nao_preparation.py) to make all robots sit in the same posture and look at the participant.
 
-### 4. Run the [interaction script](XX).
+### 4. Run the [interaction script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/scripts/nao_interactions.py).
 - Press 'f' on keyboard AND then hit 'Enter' when the participant response is YES.
 - Press 'j' on keyboard AND then hit 'Enter' when the participant response is NO.
 - See further instructions in the script.
   
 ### 5. Play the audio for the cover story.
 
-### 6. Run the [experiment script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_experiment.py).
+### 6. Run the [experiment script](XX).
 - Press 'f' on keyboard AND then hit 'Enter'for CONSISTENT version
 - Press 'j' on keyboard AND then hit 'Enter' for INCONSISTENT version
 
