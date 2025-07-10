@@ -12,8 +12,10 @@
           ....HostName naoserver.local 
           ....User nao </pre>
       - The config file will be saved automatically
+      
+## Steps to be followed
 
-## 1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).
+### 1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).
   - Connect the robots to sockets with adapters, and do NOT activate them YET.
   - Connect the experimenter's mac with the tp-link and the mac mini (with an adapter).
   - Open the VScode -> click the bottom left blue icon to open a remote window -> click "Connect to Host..." -> click "naoserver" -> enter password (See "usernames and passwords.docx" in Teams).
@@ -22,23 +24,23 @@
     - Click "Terminal" in the menu bar and select "New Terminal".
     - Type `python` + drag/type the path and then tap the "Enter" key to run the code.
   
-## 2. Set up the robots in the right positions (in a circle with the participant on the floor).
+### 2. Set up the robots in the right positions (in a circle with the participant on the floor).
 ![robotsetup](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/robotsetup.jpeg)
 
-## 3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_preparation.py) to make all robots sit in the same posture and look at the participant.
+### 3. Run the [preparation script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_preparation.py) to make all robots sit in the same posture and look at the participant.
 
-## 4. Run the [interaction script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_interactions.py).
+### 4. Run the [interaction script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_interactions.py).
 - Press 'f' on keyboard AND then hit 'Enter' when the participant response is YES.
 - Press 'j' on keyboard AND then hit 'Enter' when the participant response is NO.
 - See further instructions in the script.
   
-## 5. Play the audio for the cover story.
+### 5. Play the audio for the cover story.
 
-## 6. Run the [experiment script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_experiment.py).
+### 6. Run the [experiment script](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/nao_experiment.py).
 - Press 'f' on keyboard AND then hit 'Enter'for CONSISTENT version
 - Press 'j' on keyboard AND then hit 'Enter' for INCONSISTENT version
 
-## 7. Turn off all devices before leaving the lab.
+### 7. Turn off all devices before leaving the lab.
   - How to turn off mac mini and tp-link through the terminal?
     - Open terminal on the researcher's laptop.
     - Copy and paste: `ssh nao@naoserver.local`
