@@ -8,9 +8,6 @@
     - Click the bottom left blue icon to open a remote window
     - Click "Connect to Host..." --> "Configure SSH..." --> select the top config file from users (e.g., /Users/Name/.ssh/config)
     - Ignore the existing texts in the config file and type the following code:
-      - <pre> Host naoserver 
-          ....HostName naoserver.local 
-          ....User nao </pre>
       - ```bash
         Host naoserver
             HostName naoserver.local
