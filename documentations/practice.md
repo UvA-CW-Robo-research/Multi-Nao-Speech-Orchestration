@@ -11,6 +11,11 @@
       - <pre> Host naoserver 
           ....HostName naoserver.local 
           ....User nao </pre>
+      - ```bash
+        Host naoserver
+            HostName naoserver.local
+            User nao
+        ```
       - The config file will be saved automatically
       
 ## Steps to be followed
