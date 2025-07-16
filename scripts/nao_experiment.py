@@ -60,6 +60,9 @@ else:
 # Play the audio mp3 file with the cover story using the os library
 # os.system('nvlc music-file.mp3')
 
+# We use an excel file for all the things the robots should say for a more easy way of configuring the conversation
+# With the script below we loop through each row of the excel file
+
 # Load script from the selected file
 df = pd.read_excel(version_file)
 
