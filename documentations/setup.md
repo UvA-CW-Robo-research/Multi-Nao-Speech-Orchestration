@@ -24,7 +24,8 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - `conda activate naoqi`
     - `export PYTHONPATH=${PYTHONPATH}:~/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327/lib/python2.7/site-packages/`
 - [x] Run python 2.7 in naoqi conda environment `python`
-- [x] set naoqi to default environment
+- [x] Set naoqi to default environment by [modifying your .bashrc file](https://docs.rc.fas.harvard.edu/kb/editing-your-bashrc/#:~:text=In%20order%20to%20edit%20your,that%20you're%20using%20nano%20.) to contain this line at the bottom of the file:
+    - `conda activate naoqi`
 - [x] Import NAOqi in python `import naoqi`
 - [x] Check if it works `naoqi`
 - [x] Setup router tp-link u:admin
