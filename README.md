@@ -1,4 +1,4 @@
-# Multi-Nao-Speach-Orchestration 🤖️
+# Multi-Nao-Speech-Orchestration 🤖️
 This repository contains the code base for orchestrating speech across multiple NAO robots of different versions.
 
 ### Repository structure
