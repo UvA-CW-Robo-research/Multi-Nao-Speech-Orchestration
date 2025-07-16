@@ -1,6 +1,7 @@
 import pandas as pd
 from nao_setup import *
 import time
+# import os
 
 # Define a list of dictionaries, each representing one robot.
 # Each dictionary contains:
@@ -55,6 +56,9 @@ if version == 'f':
 else:
     version_file = 'inconsistent.xlsx'
     print("You selected the INCONSISTENT version.")
+
+# Play the audio mp3 file with the cover story using the os library
+# os.system('nvlc music-file.mp3')
 
 # Load script from the selected file
 df = pd.read_excel(version_file)
