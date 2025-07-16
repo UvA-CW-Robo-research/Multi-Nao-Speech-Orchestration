@@ -56,6 +56,8 @@ else:
     version_file = 'inconsistent.xlsx'
     print("You selected the INCONSISTENT version.")
 
+# We use an excel file for all the things the robots should say for a more easy way of configuring the conversation
+# With the script below we loop through each row of the excel file
 # Load script from the selected file
 df = pd.read_excel(version_file)
 
