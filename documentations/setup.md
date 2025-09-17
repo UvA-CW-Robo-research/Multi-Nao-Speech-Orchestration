@@ -41,12 +41,10 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - Drag the three wheel files to the mac mini directory `~/nao/` on VS Code.
     - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install ./*.whl`.
 
-## Test the robot
+## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
-- [ ] Set up a virtual NAO robot V6 in the software Choregraphe (version 2.8)
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
       - Check the default list of available voices: `print(tts.getAvailableVoices())`
-
 - [ ] Set up [face tracker](http://doc.aldebaran.com/2-1/naoqi/trackers/altracker.html#ready-to-move-robot) with head movement only 
     - Note: some arguments for the used parameters (e.g., `stiffnessInterpolation` and `registerTarget`) are not entirely clear (see the python script).
 - [ ] We wanted to add some animations such as blinking while NAO is talking. [animation libirary](http://doc.aldebaran.com/2-5/naoqi/motion/alanimationplayer-advanced.html#animationplayer-list-behaviors-nao)
