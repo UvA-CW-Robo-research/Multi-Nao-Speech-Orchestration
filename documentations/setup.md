@@ -12,8 +12,6 @@ The Nao Python SDK only works on x86 64Bit architecture and not on ARM 64Bit. Th
 
 The new plan is to use an old x86 mac mini, install ubuntu linux on it and run the software from there. As the latest Ubuntu distro comes with Pyhton 3.x pre installed, we plan to install anaconda to also make a 2.7 python environment available.
 
-Note that the mac mini is not connected to the wifi. Installations of additional packages require more steps.
-
 - [x] Install [Ubuntu 24.04.2 LTS](https://ubuntu.com/blog/ubuntu-desktop-24-04-noble-numbat-deep-dive) on mac mini `naoserver.local`
 - [x] [Install SSH](https://www.cyberciti.biz/faq/how-to-install-ssh-on-ubuntu-linux-using-apt-get/)
 - [x] [Enable remote desktop](https://help.ubuntu.com/stable/ubuntu-help/sharing-desktop.html.ro)
@@ -41,11 +39,11 @@ Note that the mac mini is not connected to the wifi. Installations of additional
     - Download `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` from [pandas.PyPI](https://pypi.org/project/pandas/0.24.2/#files), `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` from [numpy.PyPI](https://pypi.org/project/numpy/1.16.6/#files), and `xlrd-1.2.0-py2.py3-none-any.whl` from [xlrd.PyPI](https://pypi.org/project/xlrd/1.2.0/#files) to local laptop. (*Notice*: My laptop is macOS but the python 2.7 environment on mac mini is Linux, so the wheels must also be Linux)
     - Drag the three wheel files to the mac mini directory `~/nao/` on VS Code.
     - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install ./*.whl`.
-- [ ] Install `vlc` on the mac mini (OFFLINE):
-    - Download all the `.deb` files (19 in total) for `3.0.20-3build6_amd64` from [mirror](https://mirror.nl.mirhosting.net/ubuntu/pool/universe/v/vlc/) (Note: you have to manually select and download all and you can do it through [different mirrors](https://packages.ubuntu.com/noble/amd64/vlc/download)).
-    - Drag all the files (in a folder) to the mac mini directory `~/nao/` on VS Code.
-    - Intall the `.deb` files through the terminal: `sudo dpkg -i *.deb`.
-    - Fix missing dependencies of the vlc package: `sudo apt-get install -f`.
+    - 
+After the summer break, we realize that offline installing new packages to the mac mini requires too much work. Therefore, we would turn on the wifi for the mac mini whenever we need to install some new stuff.
+
+- [ ] Turn on the wifi for mac mini: `nmcli radio wifi on`.
+- [ ] Install `vlc` on the mac mini:
 ## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
