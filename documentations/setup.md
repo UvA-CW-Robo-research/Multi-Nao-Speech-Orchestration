@@ -39,10 +39,11 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
     - Download `pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl` from [pandas.PyPI](https://pypi.org/project/pandas/0.24.2/#files), `numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl` from [numpy.PyPI](https://pypi.org/project/numpy/1.16.6/#files), and `xlrd-1.2.0-py2.py3-none-any.whl` from [xlrd.PyPI](https://pypi.org/project/xlrd/1.2.0/#files) to local laptop. (*Notice*: My laptop is macOS but the python 2.7 environment on mac mini is Linux, so the wheels must also be Linux)
     - Drag the three wheel files to the mac mini directory `~/nao/` on VS Code.
     - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install ./*.whl`.
-    - 
+  
 After the summer break, we realize that offline installing new packages to the mac mini requires too much work. Therefore, we would turn on the wifi for the mac mini whenever we need to install some new stuff.
 
-- [ ] Turn on the wifi for mac mini: `nmcli radio wifi on`.
+- [ ] Mac mini connected to [IOTroam](iotroam.nl) of Sharon's account (expiration date: 25-09-2025). 
+- [ ] Turn on the wifi for mac mini: `sudo nmcli radio wifi on` -> `sudo nmcli device wifi connect "SSID_NAME" password "YOUR_PASSWORD"`.
 - [ ] Install `vlc` on the mac mini:
 ## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
