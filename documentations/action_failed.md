@@ -47,3 +47,11 @@ X11UseLocalhost yes`
     - Connect with X11 forwarding (enabled): `ssh -X nao@naoserver.local` -> type `yes`
 
 Reason: The scripts use raw_input() for user input and does not simulate or listen for key presses.
+
+- [ ] Install `vlc` on the mac mini (OFFLINE):
+    - Download all the `.deb` files (19 in total) for `3.0.20-3build6_amd64` from [mirror](https://mirror.nl.mirhosting.net/ubuntu/pool/universe/v/vlc/) (Note: you have to manually select and download all and you can do it through [different mirrors](https://packages.ubuntu.com/noble/amd64/vlc/download)).
+    - Drag all the files (in a folder) to the mac mini directory `~/nao/` on VS Code.
+    - Intall the `.deb` files through the terminal: `sudo dpkg -i *.deb`.
+    - Fix missing dependencies of the vlc package: `sudo apt-get install -f`.
+     
+Reason: This would require manually downloading more than 100 `.deb` files, which is super inefficient. Therefore, we came up with a solution to connect the mac mini with wifi to make our lives easier. 
