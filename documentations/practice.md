@@ -23,7 +23,7 @@
   - Open the VScode -> click the bottom left blue icon to open a remote window -> click "Connect to Host..." -> click "naoserver" -> enter password (See "usernames and passwords.docx" in Teams).
   - Activate the robots by pressing the button on their breast.
   - Open the script in VScode (See order in the following steps).
-    - Click "Terminal" in the menu bar and select "New Terminal".
+    - Click "Terminal" in the menu bar and select "New Terminal" (make sure you're in the `naoprojects` folder).
     - Type `python` + drag/type the path and then tap the "Enter" key to run the code.
   
 ### 2. Set up the robots in the right positions (in a circle with the participant on the floor).
