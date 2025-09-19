@@ -4,7 +4,7 @@
 2. Go to [Softbank](http://doc.aldebaran.com/2-5/dev/python/index.html) download the python sdk for your operating system. This website is not up-to-date. The instructions on getting the Python SDK are not correct. Go to [aldebaran.com support](https://aldebaran.com/en/support/kb/nao6/downloads/nao6-software-downloads/), create an account log in and you can download the 2.8.6 - Python 2.7 SDK from downloads > SDK. 
 3. Python 2.7 is needed.
 4. Installation guide is available at [Softbank](http://doc.aldebaran.com/2-5/dev/python/install_guide.html)
-5. Install audio player to run the cover story mp3 file
+5. Installation of the audio player (vlc) to run the cover story mp3 file
 
 ## New action plan
 
