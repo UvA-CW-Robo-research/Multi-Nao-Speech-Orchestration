@@ -43,8 +43,8 @@ The new plan is to use an old x86 mac mini, install ubuntu linux on it and run t
 After the summer break, we realize that offline installing new packages to the mac mini requires too much work. Therefore, we would turn on the wifi for the mac mini whenever we need to install some new stuff.
 
 - [ ] Mac mini connected to [IOTroam](iotroam.nl) of Sharon's account (expiration date: 25-09-2025). 
-- [ ] Turn on the wifi for mac mini: `sudo nmcli radio wifi on` -> `sudo nmcli device wifi connect "SSID_NAME" password "YOUR_PASSWORD"`.
-- [ ] Install `vlc` on the mac mini:
+- [ ] Turn on the wifi for mac mini: `sudo nmcli radio wifi on`.
+- [ ] Install `vlc` on the mac mini: `sudo`
 ## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
