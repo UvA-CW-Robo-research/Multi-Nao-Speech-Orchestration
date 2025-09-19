@@ -5,7 +5,6 @@
 3. Python 2.7 is needed.
 4. Installation guide is available at [Softbank](http://doc.aldebaran.com/2-5/dev/python/install_guide.html)
 5. Install audio player to run the cover story mp3 file
-   - `sudo apt install vlc`
 
 ## New action plan
 
@@ -43,7 +42,7 @@ Note that the mac mini is not connected to the wifi. Installations of additional
     - Drag the three wheel files to the mac mini directory `~/nao/` on VS Code.
     - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install ./*.whl`.
 - [ ] Install `vlc` on the mac mini (OFFLINE):
-    - Download all the `.deb` files for `3.0.20-3build6 amd64` from a [mirror](https://mirror.nl.mirhosting.net/ubuntu/pool/universe/v/vlc/) (e.g., `vlc_3.0.20-3build6_amd64.deb`).
+    - Download all the `.deb` files for `3.0.20-3build6 amd64` from [mirror](https://mirror.nl.mirhosting.net/ubuntu/pool/universe/v/vlc/) (Note: you have to manually select and download all and you can do it through [different mirrors](https://packages.ubuntu.com/noble/amd64/vlc/download)).
 ## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
