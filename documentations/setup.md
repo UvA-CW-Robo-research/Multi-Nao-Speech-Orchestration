@@ -42,7 +42,10 @@ Note that the mac mini is not connected to the wifi. Installations of additional
     - Drag the three wheel files to the mac mini directory `~/nao/` on VS Code.
     - Install `pandas` on the mac mini: `cd ~/nao` -> `pip install ./*.whl`.
 - [ ] Install `vlc` on the mac mini (OFFLINE):
-    - Download all the `.deb` files for `3.0.20-3build6 amd64` from [mirror](https://mirror.nl.mirhosting.net/ubuntu/pool/universe/v/vlc/) (Note: you have to manually select and download all and you can do it through [different mirrors](https://packages.ubuntu.com/noble/amd64/vlc/download)).
+    - Download all the `.deb` files (19 in total) for `3.0.20-3build6_amd64` from [mirror](https://mirror.nl.mirhosting.net/ubuntu/pool/universe/v/vlc/) (Note: you have to manually select and download all and you can do it through [different mirrors](https://packages.ubuntu.com/noble/amd64/vlc/download)).
+    - Drag all the files (in a folder) to the mac mini directory `~/nao/` on VS Code.
+    - Intall the `.deb` files through the terminal: `sudo dpkg -i *.deb`.
+    - Fix missing dependencies of the vlc package: `sudo apt-get install -f`.
 ## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
 - [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
