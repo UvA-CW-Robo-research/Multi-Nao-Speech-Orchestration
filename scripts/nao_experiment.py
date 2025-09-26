@@ -14,7 +14,9 @@ else:
 # Play the audio mp3 file with the cover story using the os library
 raw_input("Press 'Enter' to play the audio cover story")
 os.system("vlc --play-and-exit ./cover_story.mp3")
-time.sleep(1.5)
+
+# Wait for user confirmation before starting the robots
+raw_input("Press 'Enter' to make the robots start talking...")
 
 # We use an excel file for all the things the robots should say for a more easy way of configuring the conversation
 # With the script below we loop through each row of the excel file
