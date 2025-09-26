@@ -14,7 +14,8 @@
             User nao
         ```
       - The config file will be saved automatically
-      
+    - Connect the mac with the tp-link and mac mini
+    - Go to System Settings -> Network -> deactivate "USB 10/100/1000 LAN"
 ## Steps to be followed
 
 ### 1. Connect all devices (e.g., mac mini, tp-link, researcher laptop, robots).
