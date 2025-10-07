@@ -62,8 +62,8 @@ nao4leds = ALProxy("ALLeds", nao4_ip, port)
 # - 'speech': the speech synthesis object controlling voice parameters
 # - 'pitch': the pitch shift value specific to that robot's voice tone
 robots = [
-    {'id': 1, 'move': nao1move, 'tracker': nao1tracker, 'speech': nao1speech, 'pitch': 0.78, 'leds': nao1leds},
-    {'id': 2, 'move': nao2move, 'tracker': nao2tracker, 'speech': nao2speech, 'pitch': 0.80, 'leds': nao2leds},
+    {'id': 1, 'move': nao1move, 'tracker': nao1tracker, 'speech': nao1speech, 'pitch': 1, 'leds': nao1leds},
+    {'id': 2, 'move': nao2move, 'tracker': nao2tracker, 'speech': nao2speech, 'pitch': 1, 'leds': nao2leds},
     {'id': 3, 'move': nao3move, 'tracker': nao3tracker, 'speech': nao3speech, 'pitch': 1, 'leds': nao3leds},
     {'id': 4, 'move': nao4move, 'tracker': nao4tracker, 'speech': nao4speech, 'pitch': 1, 'leds': nao4leds}
 ]
