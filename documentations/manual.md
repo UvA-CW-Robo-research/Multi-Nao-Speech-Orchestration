@@ -1,5 +1,5 @@
 # Experimenter Manual
-
+This is created for research assistants to set up the experiment.
 ## Equipments needed
 - 4 NAO robot (2 red & 2 grey)
 - 1 MacBook Air
