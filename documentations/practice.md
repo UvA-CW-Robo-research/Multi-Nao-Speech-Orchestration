@@ -1,4 +1,13 @@
-# Guideline for research assistant to set up the experiment
+# Experimenter Manual
+
+## Equipments needed
+- 4 NAO robot (2 red & 2 grey)
+- 1 MacBook Air
+- 1 Mac Mini
+- 1 TP-link router (white) 
+- Chargers for the robot, router and laptop 
+- 1 USB-C adapter
+- 1 power strip
 
 ## Prerequisite
   - A MacBook connected to Wi-Fi
