@@ -8,7 +8,7 @@ This repository contains the code base for orchestrating speech across multiple 
 
 ### Getting started
 
-+ **For research assistants**:
++ **For experimenters**:
 Guidelines for setting up and running the experiment are available in [manual.md](https://github.com/UvA-CW-Robo-research/Multi-Nao-Speech-Orchestration/blob/main/documentations/manual.md)
 
 + **For developers**:
