@@ -47,7 +47,3 @@ After the summer break, we realize that offline installing new packages to the m
 - [ ] Install `vlc` on the mac mini: `sudo apt install vlc`.
 ## Resources
 - [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
-- [ ] [Text to speech tutorial](http://doc.aldebaran.com/2-1/naoqi/audio/altexttospeech-tuto.html)
-      - Check the default list of available voices: `print(tts.getAvailableVoices())`
-- [ ] Set up [face tracker](http://doc.aldebaran.com/2-1/naoqi/trackers/altracker.html#ready-to-move-robot) with head movement only 
-    - Note: some arguments for the used parameters (e.g., `stiffnessInterpolation` and `registerTarget`) are not entirely clear (see the python script).
