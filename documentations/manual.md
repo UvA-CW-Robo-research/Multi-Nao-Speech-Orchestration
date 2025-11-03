@@ -7,7 +7,7 @@ This is created for research assistants to set up the experiment.
 - 1 TP-link router (white) 
 - Chargers for the robot, router and laptop 
 - 1 USB-C adapter
-- 1 power strip
+- 3 extension cords
 
 ## Prerequisite
   - A MacBook connected to Wi-Fi
