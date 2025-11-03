@@ -51,4 +51,3 @@ After the summer break, we realize that offline installing new packages to the m
       - Check the default list of available voices: `print(tts.getAvailableVoices())`
 - [ ] Set up [face tracker](http://doc.aldebaran.com/2-1/naoqi/trackers/altracker.html#ready-to-move-robot) with head movement only 
     - Note: some arguments for the used parameters (e.g., `stiffnessInterpolation` and `registerTarget`) are not entirely clear (see the python script).
-- [ ] We wanted to add some animations such as blinking while NAO is talking. [animation libirary](http://doc.aldebaran.com/2-5/naoqi/motion/alanimationplayer-advanced.html#animationplayer-list-behaviors-nao)
