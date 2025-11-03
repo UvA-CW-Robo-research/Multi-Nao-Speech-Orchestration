@@ -46,4 +46,4 @@ After the summer break, we realize that offline installing new packages to the m
 - [ ] Turn on the wifi for mac mini: `sudo nmcli radio wifi on`.
 - [ ] Install `vlc` on the mac mini: `sudo apt install vlc`.
 ## Resources
-- [ ] [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
+- [Naoqi APIs](http://doc.aldebaran.com/2-1/naoqi/index.html)
